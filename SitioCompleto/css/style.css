@@ -125,6 +125,18 @@ footer .RSocial {
     .Logo {
         max-width: 60px;
     }
+    nav{
+        flex-direction: column;/*  cambiamos la direccion a columna */
+    }
+ .nav_inicio{
+    display: flex;
+    justify-content: center;/* centramos el logo yel titulo */
+    margin-bottom: 10px; /* espacio entre el titulo y los iconos */
+}
+.iconos {
+    display: flex;
+    justify-content: center; /* centramos los iconos */
+}
     /* Las tarjetas se apilan verticalmente */
     .main_cards {
         flex-direction: column;
@@ -146,6 +158,7 @@ footer .RSocial {
     .Logo {
         max-width: 50px;
     }
+
     /* Ajustamos el ancho de las tarjetas */
     .card {
         width: 90%; /* Las tarjetas ocupan el 90% del ancho */
